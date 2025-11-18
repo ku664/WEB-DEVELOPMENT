@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #004aad;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    .about img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 20px auto;
+      display: block;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #ccc;
+      margin: 40px 0;
+    }
+
+    .skills table {
+      margin: 0 auto;
+      width: 60%;
+      border-collapse: collapse;
+    }
+
+    .skills th, .skills td {
+      border: 1px solid #004aad;
+      padding: 10px;
+    }
+
+    .skills th {
+      background-color: #004aad;
+      color: white;
+    }
+
+    .projects .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      width: 300px;
+      margin: 20px auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .contact form {
+      background: white;
+      border: 1px solid #004aad;
+      width: 60%;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: left;
+    }
+
+    .contact label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    .contact input,
+    .contact textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .contact button {
+      background-color: #004aad;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .contact button:hover {
+      background-color: #002f6c;
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #004aad;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .back-to-top:hover {
+      background-color: #002f6c;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+        
+        
+        <!-- About Section -->
+    <img src="C:\Users\anubh\e088e4b2-5016-4c59-a64a-5aba4b933a87.jpg" alt="Profile">
+    
+    <p>Hello! My name is Kuber. I am learning web development and this is my first portfolio website.</p>
+  </section>
+
+  <hr>
+
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Learning</td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="card">
+      <h3>Project 1</h3>
+      <p>A simple HTML & CSS webpage.</p>
+    </div>
+    <div class="card">
+      <h3>Project 2</h3>
+      <p>Another awesome mini project.</p>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email">
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" placeholder="Write your message"></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+    ↑ Back to Top
+  </button>
+
+</body>
+</html>
+    </style>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <h1>Anubhav</h1>
+    <header> 
+        <nav>
+        <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        </nav>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main>
+    <main id="main-content">
+        <section id="hero" class="hero">
+        <h2>WELCOME TO MY PORTFOLIO</h2>
+        <p>Myself Anubhav, I am a Web development student.This is my personal portfolio website </p>
+
+        </section>
+        <!-- About Section -->
+        <section id="about" class="about">
+        <h2>About Me</h2>
+        <IMAGE SRC="c:\Users\kuber\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\6C8349CC7260AE62E3B1396831A8398F\WhatsApp Image 2025-10-09 at 09.18.43_3a736e7c.jpg"alt="profile image" width="100px" height="100px" shape="round"
+        <br>
+        <p>I am passionate about learning web development and building creative projects</p>
+        </section>
+        <!-- Project Section -->
+        <section id="projects" class="projects">
+        <h2>My Projects</h2>
+
+        <ul>
+            <li><article><b>Portfolio Website:</b> personal one-page website to showcase your bio,skils,contact details.</article></li>
+            <li><article><b>User Form:</b>A Form webpage with fields like name,email,password with submit button in the end</article></li>
+            <li><article><b>An Introduction page</b>An Introductory type page showcasing personal info with user's image</article></li>
+        </ul>
+        <h2>Technical Skills</h2>
+          <table border="1" cellpadding="10px" cellspacing="10px">
+        <thead>
+            <tr>
+                <th>Skills</th>
+                <th>Levels</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Basic</td>
+            </tr>
+         </tbody>
+         <tbody>
+            <tr>
+                <td>CSS</td>
+                <td>Basic</td>
+            </tr>
+         </tbody>
+         <tbody>
+            <tr>
+                <td>JAVASCRIPT</td>
+                <td>Basic</td>
+            </tr>
+         </tbody>
+          </table>
+        </section>
+        <!-- contact Section -->
+        <section id="contact" class="contact">
+          <h2>Contact Me</h2>
+          <form>
+            <label for="full name">Name:</label>
+        <input type="text" name="" placeholder="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="" name="" placeholder="email">
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+        <br>
+        <button type="submit">Send</button>
+
+          </form>
+    </section>
+    </main>
+<footer>
+
+</footer>
+
+</body>
+</html>
